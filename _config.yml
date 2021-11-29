@@ -50,7 +50,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Joschua Dilly and I need to write some more stuff. 
 
-  I am most skilled in: <mark>Physics</mark> and <mark>Not Physics</mark>
+  I am most skilled in: <mark>Physics</mark> and <mark>Not Physics</mark>.
 
 content:
   - title: Projects # Title for the section
