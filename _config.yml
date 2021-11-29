@@ -9,7 +9,7 @@ version: 2
 name: Joschua Dilly 
 title: PhD Student at CERN
 # email: 
-website: www.jdilly.de
+website: jdilly.de
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -31,6 +31,9 @@ orcid_username: 0000-0001-7864-5448
 
 # Additional icon links
 additional_links:
+- title: Google Scholar
+  icon: fas fa-book
+  url: https://scholar.google.ch/citations?user=AxIC3M4AAAAJ&hl=en
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -71,10 +74,22 @@ content:
     content:
       - layout: left
         title: CERN
-        link: cern.home
-        # link_text: boringcompany.com
+        link: home.cern
+        # link_text: 
         sub_title: PhD Student
         caption: September 2019 - Present
+        quote: >
+          Something. 
+        description: | # this will include new lines to allow paragraphs
+          Some other thing.
+      
+      
+      - layout: left
+        title: CERN
+        link: home.cern
+        # link_text: 
+        sub_title: Researcher (International Volunteer)
+        caption: September 2017 - September 2019
         quote: >
           Something. 
         description: | # this will include new lines to allow paragraphs
@@ -84,9 +99,27 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Humboldt University Berlin 
+        title: Humboldt University of Berlin 
         caption: 2019 - Present
         sub_title: PhD 
+        quote: >
+          Hello.
+        description: | # this will include new lines to allow paragraphs
+          Hello.
+      
+      - layout: left
+        title: Technical University Berlin 
+        caption: 2012 - 2016
+        sub_title: Master's degree in Physics
+        quote: >
+          Hello.
+        description: | # this will include new lines to allow paragraphs
+          Hello.
+      
+      - layout: left
+        title: University of Basel
+        caption: 2012 - 2016
+        sub_title: Bachelors's degree in Computational Physics
         quote: >
           Hello.
         description: | # this will include new lines to allow paragraphs
