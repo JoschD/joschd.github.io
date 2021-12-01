@@ -64,8 +64,7 @@ content:
         quote: > 
           European Organization for Nuclear Research, Geneva, CH
         description: | 
-          Thesis Title: __"Corrections of high-order nonlinearities in the LHC and High Luminosity LHC beam optics"__.
-
+          Thesis Title: _"Corrections of high-order nonlinearities in the LHC and High Luminosity LHC beam optics"_.<br>
           Under the caring supervision of [Dr. Rogelio Tomás-García](http://rtomas.web.cern.ch/rtomas/).
       
       - layout: left
@@ -93,7 +92,7 @@ content:
         sub_title: Student Research Assistant
         caption: Dec 2013 - Aug 2015
         description: | 
-          Masters Thesis: [**Quality-of-transmission estimation in physical impairment-aware flexible optical networks**](https://arxiv.org/abs/2012.06477). <br>
+          Masters Thesis: [_Quality-of-transmission estimation in physical impairment-aware flexible optical networks_](https://arxiv.org/abs/2012.06477). <br>
           Digital Signal Processing and Performance Monitoring in Flexible Optical Networks: <mark>MATLAB</mark>/<mark>VPI Photonic Components</mark> simulations. <br>
           <mark>DSP-Toolbox</mark> development.
       
@@ -139,10 +138,10 @@ content:
         #   "The most dangerous worldview is the worldview of those who have never viewed the world." - Alexander von Humboldt
         description: | # this will include new lines to allow paragraphs
           I am currently writing my PhD Thesis 
-          **"Corrections of high-order nonlinearities in the LHC and High Luminosity LHC beam optics"**.
+          _"Corrections of high-order nonlinearities in the LHC and High Luminosity LHC beam optics"_.
 
           Expertedly supervised by [Prof. Dr. Andreas Jankowiak](https://www.helmholtz-berlin.de/pubbin/vkart.pl?v=adzou), 
-          who made my start at CERN already much easier by providing me with his lecture materials beforehand.
+          who made my start at `CERN` already much easier by providing me with his lecture materials beforehand.
       
       - layout: left
         title: Technical University Berlin 
@@ -155,7 +154,7 @@ content:
           The <mark>fundamental physics</mark> studies at the TU-Berlin were the next logical step on the way to a Master's degree.
           After a short intermezzo as an intern at `ABB` and `BAM` to get insight into the research worklife 
           I did two semester of lectures here, before working full time on my thesis at the `HHI`
-          about [**"Quality-of-transmission estimation in physical impairment-aware flexible optical networks"**](https://arxiv.org/abs/2012.06477).
+          about [_"Quality-of-transmission estimation in physical impairment-aware flexible optical networks"_](https://arxiv.org/abs/2012.06477).
       
       - layout: left
         title: University of Basel
@@ -181,8 +180,8 @@ content:
       - layout: left 
         title:  Accelerator Physics
         description: |
-          I started with accelerator physics in 2017 at my first Job at CERN. 
-          In the [**Optics Measurements and Correction Team**](https://pylhc.github.io/) we are developing new methods to find errors in the LHC beam optics (read: magnetic fields) 
+          I started with accelerator physics in 2017 at my first Job at `CERN`. 
+          In the [**Optics Measurements and Correction Team**](https://pylhc.github.io/) we are developing new methods to find errors in the LHC <mark>beam optics</mark> (read: magnetic fields) 
           and are finding new ways to correct them efficiently.
       
       
@@ -191,12 +190,12 @@ content:
         description: |
           I love working at the intersection between reality and simulation, loving coding much more than setting up experiments 
           and loving finding new solutions to problems by putting them into algorithms.
-          During my Bachelor's I was introduced to different methods of optimization and how to simplify complex object interactions without loosing the important features. 
+          During my Bachelor's I was introduced to different methods of <mark>optimization</mark> and how to simplify complex object interactions without loosing the important features. 
 
       - layout: left 
         title: Python 
         description: |
-          Most of my coding is done in python, mainly for the simplicity aspect and because I rarely rely on speed.
+          Most of my coding is done in <mark>python</mark>, mainly for the simplicity aspect and because I rarely rely on speed.
           I am very comfortable in it and - in my opinion - know how to write pythonic, readable, well documented code.
           If there is time.
 
@@ -207,7 +206,7 @@ content:
         title: Java 
         description: |
           The language learned in Uni (apart from Fortran, which I will not mention here, so no one contacts me to write some Fortran) and still used sometimes.
-          At CERN the GUI is written in Java, to which I have made multiple extensions and fixes.
+          At CERN the GUI is written in <mark>Java</mark>, to which I have made multiple extensions and fixes.
           I find it very clunky, though and it is not my preferred language.
 
       - layout: left 
@@ -215,7 +214,7 @@ content:
         description: |
           If the only available templates are _.doc_ or _.ppt_ for me to use, chances are there will be soon a
           [LaTeX Template](https://pylhc.github.io/resources/templates) for it as well.
-          Happy to share! (The Excel tables are <mark>pandas</mark> now. See the <mark>Python</mark> section.)
+          Happy to share! (The Excel tables are <mark>pandas</mark> now. See the <mark>python</mark> section.)
       
       - layout: left 
         title: English 
@@ -238,6 +237,7 @@ content:
     content:
       - layout: top-middle
         title: Plofeld
+        sub_title: A python plotting library for physical fields.
         # link: https://github.com/JoschD/plofeld
         # link_text: Plofeld on Github 
         additional_links:
@@ -250,8 +250,6 @@ content:
           - title: Documentation of Plofeld 
             icon: fas fa-book
             url: https://joschd.github.io/plofeld
-        quote: >
-          A python plotting library for physical fields.
         description: |
           I wanted a picture of a dodecapole. 
           Sadly, none of the pictures I found were to my liking.
@@ -260,6 +258,7 @@ content:
       
       - layout: top-middle
         title: cpymad-lhc
+        sub_title: Helper Functions for cpymad to run LHC optics.
         additional_links:
           - title: cpymad-lhc on Github 
             icon: fab fa-github
@@ -270,8 +269,6 @@ content:
           - title: Documentation of cpymad-lhc 
             icon: fas fa-book
             url: https://joschd.github.io/cpymad_lhc
-        quote: >
-          Helper Functions for cpymad to run LHC optics.
         description: | 
           A lot of accelerator optics simulations involve the use of <mark>MAD-X</mark>.
           As I am not very happy with the language provided by <mark>MAD-X</mark>, 
@@ -285,6 +282,7 @@ content:
       
       - layout: top-middle
         title: pylhc-submitter 
+        sub_title: Utility HTCondor Submitter for Parametrized Studies.
         additional_links:
           - title: pylhc-submitter on Github 
             icon: fab fa-github
@@ -295,8 +293,6 @@ content:
           - title: Documentation of the pylhc-submitter
             icon: fas fa-book
             url: https://pylhc.github.io/submitter
-        quote: >
-          Utility HTCondor Submitter for Parametrized Studies.
         description: | 
           This package contains scripts to simplify the creation, 
           parametrization and submission of simulation jobs to HTCondor clusters at CERN.
@@ -307,6 +303,7 @@ content:
       
       - layout: top-middle
         title: optics-functions
+        sub_title: Calculate various beam optics functions from TFS-Dataframes. 
         additional_links:
           - title: optics-functions on Github 
             icon: fab fa-github
@@ -317,13 +314,12 @@ content:
           - title: Documentation of the optics-functions
             icon: fas fa-book
             url: https://pylhc.github.io/optics_functions
-        quote: >
-          Calculate various beam optics functions from TFS-Dataframes. 
         description: | 
-          This package provides functions to calculate various optics parameters from MAD-X TWISS outputs.
+          This package provides functions to calculate various optics parameters from <mark>MAD-X TWISS</mark> outputs.
       
       - layout: top-middle
         title: omc3
+        sub_title: Python 3 codes for beam optics measurements and corrections in circular particle accelerators. 
         additional_links:
           - title: omc3 on Github 
             icon: fab fa-github
@@ -334,8 +330,6 @@ content:
           - title: Documentation of omc3
             icon: fas fa-book
             url: https://pylhc.github.io/omc3
-        quote: >
-          Python 3 codes for beam optics measurements and corrections in circular particle accelerators. 
         description: | 
           This is the python-tool package of the Optics Measurements and Corrections team (OMC) at CERN.
 
@@ -344,6 +338,7 @@ content:
       
       - layout: top-middle
         title: PyLHC
+        sub_title: Additional tools for particle accelerator data analysis and machine information.
         additional_links:
           - title: PyLHC on Github 
             icon: fab fa-github
@@ -354,8 +349,6 @@ content:
           - title: Documentation of pylhc
             icon: fas fa-book
             url: https://pylhc.github.io/pylhc
-        quote: >
-          Additional tools for particle accelerator data analysis and machine information.
         description: | 
           This package provides tools for particle accelerator physics complementing the optics measurement analysis tools of the omc3 package. 
           It is a collection of useful scripts for the Optics Measurements and Corrections team (OMC) at CERN, 
