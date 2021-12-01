@@ -36,9 +36,11 @@ additional_links:
 about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi and thank you for stopping by. Let me use this opportunity to introduce myself.
-  Being introduced into hard puzzles at an early age through MYST by my dad,
-  I developed a passion for figuring out how things work.
+  Hi and thank you for stopping by!
+
+  Let me use this opportunity to introduce myself.
+
+  Being initiated to hard puzzles at an early age through <mark>MYST</mark> by my dad, I developed a passion for figuring out how things work.
   I am now a <mark>physicist</mark>, because describe them with a clear and precise language 
   and a <mark>Python</mark> programmer, because I also like contradictions.
 
