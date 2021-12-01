@@ -1,3 +1,7 @@
 span.profile-img {
     box-shadow: inset 0 0 20px #222222;
 }
+
+.layout-top-middle .content p{
+    text-align: center;
+}

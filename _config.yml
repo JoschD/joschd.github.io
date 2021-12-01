@@ -50,24 +50,6 @@ about_content: | # this will include new lines to allow paragraphs
 
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Plofeld
-        # link: https://github.com/JoschD/plofeld
-        # link_text: Plofeld on Github 
-        additional_links:
-          - title: Plofeld on Github 
-            icon: fab fa-github
-            url: https://github.com/JoschD/plofeld
-        quote: >
-          A python plotting library for physical fields.
-        description: | 
-          I wanted a picture of a dodecapole. Sadly, none of the pictures I found were to my liking.
-          Instead of drawing a dodecapole I thought it would be more fun, to write some code to plot all kinds of fields.
-          And here we are ... 
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -193,20 +175,6 @@ content:
     layout: list
     content:
       - layout: left 
-        title: Python 
-        description: |
-          Most of my coding is done in python, mainly for the simplicity aspect and because I rarely rely on speed.
-          I am very comfortable in it and - in my opinion - know how to write pythonic, readable, well documented code.
-          If there is time.
-
-      - layout: left 
-        title: Java 
-        description: |
-          The language learned in Uni (apart from Fortran, which I will not mention here, so no one contacts me to write some Fortran) and still used sometimes.
-          At CERN the GUI is written in Java, to which I have made multiple extensions and fixes.
-          I find it very clunky, though and it is not my preferred language.
-      
-      - layout: left 
         title:  Accelerator Physics
         description: |
           I started with accelerator physics in 2017 at my first Job at CERN. 
@@ -221,6 +189,29 @@ content:
           and loving finding new solutions to problems by putting them into algorithms.
           During my Bachelor's I was introduced to different methods of optimization and how to simplify complex object interactions without loosing the important features. 
 
+      - layout: left 
+        title: Python 
+        description: |
+          Most of my coding is done in python, mainly for the simplicity aspect and because I rarely rely on speed.
+          I am very comfortable in it and - in my opinion - know how to write pythonic, readable, well documented code.
+          If there is time.
+
+          Especially versed in <mark>pandas</mark> for <mark>data analysis</mark>, <mark>numpy</mark> and <mark>scipy</mark>.
+          And do not underestimate the amount of problems one can solve by sprinkling some <mark>regular expressions</mark> in there.
+
+      - layout: left 
+        title: Java 
+        description: |
+          The language learned in Uni (apart from Fortran, which I will not mention here, so no one contacts me to write some Fortran) and still used sometimes.
+          At CERN the GUI is written in Java, to which I have made multiple extensions and fixes.
+          I find it very clunky, though and it is not my preferred language.
+
+      - layout: left 
+        title: LaTeX 
+        description: |
+          If the only available templates are _.doc_ or _.ppt_ for me to use, chances are there will be soon a
+          [LaTeX Template](https://pylhc.github.io/resources/templates) for it as well.
+          Happy to share! (The Excel tables are <mark>pandas</mark> now. See the <mark>Python</mark> section.)
       
       - layout: left 
         title: English 
@@ -238,6 +229,140 @@ content:
         description: |
           My native tongue, but sometimes I think my English is better.
       
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Plofeld
+        # link: https://github.com/JoschD/plofeld
+        # link_text: Plofeld on Github 
+        additional_links:
+          - title: Plofeld on Github 
+            icon: fab fa-github
+            url: https://github.com/JoschD/plofeld
+          - title: Plofeld on PyPi 
+            icon: fas fa-cubes
+            url: https://pypi.org/project/plofeld/
+          - title: Documentation of Plofeld 
+            icon: fas fa-book
+            url: https://joschd.github.io/plofeld
+        quote: >
+          A python plotting library for physical fields.
+        description: |
+          I wanted a picture of a dodecapole. 
+          Sadly, none of the pictures I found were to my liking.
+          Instead of drawing a dodecapole I thought it would be more fun, to write some code to plot all kinds of fields.<br>
+          And here we are ... 
+      
+      - layout: top-middle
+        title: cpymad-lhc
+        additional_links:
+          - title: cpymad-lhc on Github 
+            icon: fab fa-github
+            url: https://github.com/JoschD/cpymad_lhc
+          - title: cpymad-lhc on PyPi 
+            icon: fas fa-cubes
+            url: https://pypi.org/project/cpymad-lhc/ 
+          - title: Documentation of cpymad-lhc 
+            icon: fas fa-book
+            url: https://joschd.github.io/cpymad_lhc
+        quote: >
+          Helper Functions for cpymad to run LHC optics.
+        description: | 
+          A lot of accelerator optics simulations involve the use of <mark>MAD-X</mark>.
+          As I am not very happy with the language provided by <mark>MAD-X</mark>, 
+          as are many others, I am using the pythonic approach thanks to the amazing 
+          [<mark>cpymad</mark> wrapper](https://github.com/hibtc/cpymad).
+          In this repo I collected a lot of functions, which are of great use to run
+          <mark>cpymad</mark> simulations for the <mark>LHC</mark> and <mark>HL-LHC</mark>.
+          
+          I hope they can, if not used directly, at least provide some inspiration of how to 
+          overcome the limitations of <mark>MAD-X</mark> in a pythonic way!
+      
+      - layout: top-middle
+        title: pylhc-submitter 
+        additional_links:
+          - title: pylhc-submitter on Github 
+            icon: fab fa-github
+            url: https://github.com/pylhc/submitter
+          - title: pylhc-submitter on PyPi 
+            icon: fas fa-cubes
+            url: https://pypi.org/project/pylhc-submitter/ 
+          - title: Documentation of the pylhc-submitter
+            icon: fas fa-book
+            url: https://pylhc.github.io/submitter
+        quote: >
+          Utility HTCondor Submitter for Parametrized Studies.
+        description: | 
+          This package contains scripts to simplify the creation, 
+          parametrization and submission of simulation jobs to HTCondor clusters at CERN.
+
+          While I contributed to both [<mark>job_submitter</mark>](https://github.com/pylhc/submitter/blob/master/pylhc_submitter/job_submitter.py) and 
+          [<mark>AutoSix</mark>](https://github.com/pylhc/submitter/blob/master/pylhc_submitter/autosix.py),
+          the latter is a prime example of my 2021 coding style.
+      
+      - layout: top-middle
+        title: optics-functions
+        additional_links:
+          - title: optics-functions on Github 
+            icon: fab fa-github
+            url: https://github.com/pylhc/optics_functions
+          - title: optics-functions on PyPi 
+            icon: fas fa-cubes
+            url: https://pypi.org/project/optics-functions/ 
+          - title: Documentation of the optics-functions
+            icon: fas fa-book
+            url: https://pylhc.github.io/optics_functions
+        quote: >
+          Calculate various beam optics functions from TFS-Dataframes. 
+        description: | 
+          This package provides functions to calculate various optics parameters from MAD-X TWISS outputs.
+      
+      - layout: top-middle
+        title: omc3
+        additional_links:
+          - title: omc3 on Github 
+            icon: fab fa-github
+            url: https://github.com/pylhc/omc3
+          - title: omc3 on PyPi 
+            icon: fas fa-cubes
+            url: https://pypi.org/project/omc3/ 
+          - title: Documentation of omc3
+            icon: fas fa-book
+            url: https://pylhc.github.io/omc3
+        quote: >
+          Python 3 codes for beam optics measurements and corrections in circular particle accelerators. 
+        description: | 
+          This is the python-tool package of the Optics Measurements and Corrections team (OMC) at CERN.
+
+          Most of the codes are generic and not limited to CERN accelerators, and the package can easily be used for your 
+          favourite circular accelerator. 
+      
+      - layout: top-middle
+        title: PyLHC
+        additional_links:
+          - title: PyLHC on Github 
+            icon: fab fa-github
+            url: https://github.com/pylhc/pylhc
+          - title: PyLHC on PyPi 
+            icon: fas fa-cubes
+            url: https://pypi.org/project/pylhc/ 
+          - title: Documentation of pylhc
+            icon: fas fa-book
+            url: https://pylhc.github.io/pylhc
+        quote: >
+          Additional tools for particle accelerator data analysis and machine information.
+        description: | 
+          This package provides tools for particle accelerator physics complementing the optics measurement analysis tools of the omc3 package. 
+          It is a collection of useful scripts for the Optics Measurements and Corrections team (OMC) at CERN, 
+          with functionality for data analysis, corrections calculation, simulations management and machine information extraction.
+
+          My major contribution is the 
+          [<mark>IR NonLinear RDT Correction</mark>](https://github.com/pylhc/PyLHC/blob/master/pylhc/irnl_rdt_correction.py),
+          yet the [<mark>Machine Settings Info</mark>](https://github.com/pylhc/PyLHC/blob/master/pylhc/machine_settings_info.py)
+          was also implemented by me and 
+          the [<mark>Forced DA Analysis</mark>](https://github.com/pylhc/PyLHC/blob/master/pylhc/forced_da_analysis.py) contains 
+          a lot of my handwriting.
       
   - title: The other things I do 
     layout: list
