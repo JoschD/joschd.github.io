@@ -118,7 +118,8 @@ content:
         sub_title: Intern
         caption: Mar 2013 - May 2013
         description: | 
-          Acoustic wave propagation in waveguides: SB-FEM simulations in <mark>MATLAB</mark> continued. [(Acknowledgement)](https://www.sciencedirect.com/science/article/pii/S0022460X12000764)
+          Acoustic wave propagation in waveguides: SB-FEM simulations in <mark>MATLAB</mark> continued 
+          [(Acknowledgement)](https://www.sciencedirect.com/science/article/pii/S0022460X12000764).
       
       - layout: left
         title:  BAM
@@ -137,8 +138,8 @@ content:
         caption: Sep 2011 - Dec 2011
         description: | 
           Implementation of surface plasma interaction models as boundary conditions for electrical
-          current calculations: FEM Simulation in <mark>MATLAB</mark>.<br> 
-          [Reference](https://ui.adsabs.harvard.edu/abs/2013APS..GECCT1011H/abstract).
+          current calculations: FEM Simulation in <mark>MATLAB</mark>
+          [(Reference)](https://ui.adsabs.harvard.edu/abs/2013APS..GECCT1011H/abstract).
  
 
   - title: Education # Title for the section
