@@ -8,49 +8,46 @@ version: 2
 # Personal info
 name: Joschua Dilly 
 title: PhD Student at CERN
-# email: 
+# email: mail at websitename 
 website: jdilly.de
 
 # Dark Mode (true/false/never)
 darkmode: true
 
 # Social links
-# twitter_username: 
 github_username: joschd 
 stackoverflow_username: "5609590"
-# dribbble_username: 
-# facebook_username: 
-# flickr_username: 
-# instagram_username: 
 linkedin_username: joschua-dilly-904a5a200
-# xing_username: jekyll
-# pinterest_username: 
-# youtube_username: 
-# googleplus_username: 
 orcid_username: 0000-0001-7864-5448
 
 # Additional icon links
 additional_links:
 - title: Google Scholar
   icon: fas fa-book
-  url: https://scholar.google.ch/citations?user=AxIC3M4AAAAJ&hl=en
+  url: https://scholar.google.ch/citations?user=AxIC3M4AAAAJ
+
+
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Joschua Dilly and I need to write some more stuff. 
+  Hi and thank you for stopping by. Let me use this opportunity to introduce myself.
+  Being introduced into hard puzzles at an early age through MYST by my dad,
+  I developed a passion for figuring out how things work.
+  I am now a <mark>physicist</mark>, because describe them with a clear and precise language 
+  and a <mark>Python</mark> programmer, because I also like contradictions.
 
-  I am most skilled in: <mark>Physics</mark> and <mark>Not Physics</mark>.
+  In the last years I have been introduced to the amazing field of <mark>accelerator physics</mark>,
+  while at the same time develop my coding skills, thanks to very talented colleagues, from "physicist"
+  to "readable" and sometimes even "nicely documented". 
+  Check out my [Google Scholar](https://scholar.google.ch/citations?user=AxIC3M4AAAAJ) for the Science part
+  and my [Github](https://github.com/JoschD) for the Codes.
+
 
 content:
   - title: Projects # Title for the section
@@ -74,26 +71,74 @@ content:
     content:
       - layout: left
         title: CERN
-        link: home.cern
-        # link_text: 
+        quote: > 
+          European Organization for Nuclear Research 
+        # Making sure the LHC goes brrrrrrr correctly.
         sub_title: PhD Student
-        caption: September 2019 - Present
-        quote: >
-          Something. 
-        description: | # this will include new lines to allow paragraphs
-          Some other thing.
+        caption: Sep 2019 - Present
+        description: | 
+          Corrections of high-order nonlinearities in the LHC 
+          and High Luminosity LHC beam optics.
       
       
       - layout: left
         title: CERN
-        link: home.cern
-        # link_text: 
+        quote: > 
+          European Organization for Nuclear Research 
         sub_title: Researcher (International Volunteer)
-        caption: September 2017 - September 2019
+        caption: Sep 2017 - Sep 2019
+        description: | 
+          Research in accelerator physics, 
+          especially in the measurement and correction of beam optics.
+
+      - layout: left
+        title: HHI
         quote: >
-          Something. 
-        description: | # this will include new lines to allow paragraphs
-          Some other thing.
+          Fraunhofer Heinrich Hertz Institute, Berlin
+        sub_title: Research Assistant
+        caption: Aug 2015 - Dec 2015
+        description: | 
+          Development of a Python-based interface between VPI Photonic Components and MATLAB.
+
+      - layout: left
+        title: HHI
+        quote: >
+          Fraunhofer Heinrich Hertz Institute, Berlin
+        sub_title: Student Research Assistant
+        caption: Dec 2013 - Aug 2015
+        description: | 
+          Masters Thesis: ["Quality-of-transmission estimation in physical impairment-aware flexible optical networks"](https://arxiv.org/abs/2012.06477). <br>
+          Digital Signal Processing and Performance Monitoring in Flexible Optical Networks: MATLAB/VPI Photonic Components simulations. <br>
+          DSP-Toolbox development.
+      
+      - layout: left
+        title:  BAM
+        quote: > 
+          Bundesanstalt für Materialforschung und -prüfung, Berlin
+        sub_title: Intern
+        caption: Mar 2013 - May 2013
+        description: | 
+          Acoustic wave propagation in waveguides: SB-FEM simulations in MATLAB continued. [(Acknowledgement)](https://www.sciencedirect.com/science/article/pii/S0022460X12000764)
+      
+      - layout: left
+        title:  BAM
+        quote: > 
+          Bundesanstalt für Materialforschung und -prüfung, Berlin
+        sub_title: Intern
+        caption: Apr 2012 - Jul 2012
+        description: | 
+          Acoustic wave propagation in waveguides: SB-FEM simulations in MATLAB. 
+      
+      - layout: left
+        title: ABB
+        quote: > 
+          ABB Switzerland Ltd. (ABB Schweiz AG), Baden Dättwil
+        sub_title: Intern
+        caption: Sep 2011 - Dec 2011
+        description: | 
+          Implementation of surface plasma interaction models as boundary conditions for electrical
+          current calculations: FEM Simulation in MATLAB. [Reference](https://ui.adsabs.harvard.edu/abs/2013APS..GECCT1011H/abstract).
+ 
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -102,39 +147,63 @@ content:
         title: Humboldt University of Berlin 
         caption: 2019 - Present
         sub_title: PhD 
-        quote: >
-          Hello.
+        # quote: >
+        #   "The most dangerous worldview is the worldview of those who have never viewed the world." - Alexander von Humboldt
         description: | # this will include new lines to allow paragraphs
-          Hello.
+          I am currently writing my PhD Thesis 
+          <mark>Corrections of high-order nonlinearities in the LHC and High Luminosity LHC beam optics</mark>.
+
+          Expertedly supervised by [Prof. Dr. Andreas Jankowiak](https://www.helmholtz-berlin.de/pubbin/vkart.pl?v=adzou), 
+          who made my start at CERN already much easier by providing me with his lecture materials beforehand.
       
       - layout: left
         title: Technical University Berlin 
         caption: 2012 - 2016
         sub_title: Master's degree in Physics
-        quote: >
-          Hello.
-        description: | # this will include new lines to allow paragraphs
-          Hello.
+        # quote: >
+        #  “If you thought that science was certain - well, that is just an error on your part.”
+        #   ― Richard P. Feynman 
+        description: | 
+          The fundamental physics studies at the TU-Berlin were the next logical step on the way to a Master's degree.
+          After a short intermezzo as an intern at `ABB` and `BAM` (see Experience) to get inside into the research worklife 
+          I did two semester of lectures here, before working full time on my thesis at the `HHI` (see Experience)
+          about [<mark>Quality-of-transmission estimation in physical impairment-aware flexible optical networks</mark>](https://arxiv.org/abs/2012.06477).
       
       - layout: left
         title: University of Basel
-        caption: 2012 - 2016
+        caption: 2008 - 2011
         sub_title: Bachelors's degree in Computational Physics
-        quote: >
-          Hello.
+        # quote: >
+        #   “I would rather have questions that can't be answered than answers that can't be questioned.”
+        #   ― Richard P. Feynman
         description: | # this will include new lines to allow paragraphs
-          Hello.
+          I chose the studies of Computational Physics, as the curriculum required to attend the basic courses
+          of the other natural sciences as well, and I did not feel finished yet with Biology and Chemistry.
+          Also, all laboratory work was replaced with lectures about simulations and optimization theory, 
+          and the fundamental lectures in programming were mandatory. 
+          It was indeed a perfect curriculum and a great starting point into a career in natural sciences.
+
+          On a more extended curriculum bases I enjoyed the philosophic-astronomic-meta-physical lectures of 
+          [Prof. Roland Buser](https://de.wikipedia.org/wiki/Roland_Buser) a lot, and I hope that they are still a thing.
 
   - title: The other things I do 
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Some of my other interests and hobbies are:
-      - Mountain Biking
-      - Via Ferrata 
-      - Gaming
+    layout: list
+    content:
+      - layout: right 
+        title: <img src="/images/via-ferrata.jpg" width="80%"">
+        description: | # this will include new lines to allow paragraphs
+          Trying to live not too far away from high hills and mountains throughout my life, as my sportive hobbies include 
+          - Mountain Biking
+          - Climbing
+          - Bouldering 
+          - Via Ferrata 
+          - Ski/Snowboarding
+
+          On rainy days, though you will find me on my couch gaming, reading a book or jumping around within VR slaying virtual boxes. 
+
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
